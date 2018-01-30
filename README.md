@@ -1,6 +1,6 @@
-# Sugarholics website
+<a align="center" href="https://camillapmedeiros.github.io/sugarholics"><img width="100%" src="src/images/thumbnail.png" alt="Sugarholics - All the sweet places in town"></a>
 
-> All the sweet places in town
+> All the sweet places in town.
 
 ## Getting Started
 
@@ -12,4 +12,4 @@
 
 ## License
 
-Copyright © 2018 [Camilla Medeiros](http://github.com/camillapmedeiros) <camillapmedeiros@gmail.com>
+Designed with ♥ by [Camilla Medeiros](http://github.com/camillapmedeiros).
