@@ -2,7 +2,23 @@
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .header
+    display: inline-block
+    background: radial-gradient($pink 0%, $pink-darker 50%)
+    height: 120vh
+
     .logo
+        background: url('../images/logo.png') no-repeat
+        background-size: contain
+        margin: 0 auto
+
+        &__medium
         &__large
+            width: 600px
+            height: 150px
+            margin-top: 6rem
+
+    &--image
+        width: 100%
+
     .navigation
         &--bar
