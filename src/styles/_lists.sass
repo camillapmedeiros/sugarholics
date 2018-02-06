@@ -1,9 +1,17 @@
 // Lists
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
-.features--list
-    .list
-        &--item
-            &--image
-            &--title
-            &--description
+.list
+    &--item
+        display: flex
+        justify-content: center
+        align-items: center
+
+        &--image
+            @include shadow
+            @include radius
+            width: 300px
+            margin: 2rem
+
+        &--title
+        &--description
