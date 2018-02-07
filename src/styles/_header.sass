@@ -4,10 +4,20 @@
 .header
     @include full-size
     display: inline-block
-    background: radial-gradient($pink 0%, $pink-darker 50%)
+    background: url('../images/header-background.png') no-repeat
+    background-size: cover
+    background-position: center
+
+    &--wrapper
+        width: 300px
+        margin: 0 auto
+        padding: 4rem 0
 
     &--image
+        @include shadow
+        @include radius
         width: 100%
 
-    .navigation
-        &--bar
+    &--title
+        color: $white
+        opacity: .8
